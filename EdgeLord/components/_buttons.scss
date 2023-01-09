@@ -1,31 +1,75 @@
 @mixin btn($bg-color) {
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  padding: $padding-light;
-  background-color: $bg-color;
-  &:hover {
-    filter: contrast(80%);
-    color: light-comp($bg-color);
+  @if (
+    $bg-color !=
+      $white and
+      $bg-color !=
+      $darkwhite and
+      $bg-color !=
+      $yellow and
+      $bg-color !=
+      $lightyellow and
+      $bg-color !=
+      $darkyellow
+  ) {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: $padding-light;
+    background-color: $bg-color;
+    &:hover {
+        filter: contrast(80%);
+      color: white;
+    }
+  } @else {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: $padding-light;
+    background-color: $bg-color;
+    &:hover {
+        filter: contrast((80%));
+      color: black;
+    }
   }
 }
 
 $count: 0;
 
 @each $key, $val in $colors {
-  @each $br, $rad in $border-radius {
-    .btn-#{$key}-light-#{$br} {
-      @include btn($val);
-      border-radius: $rad;
+  @if (
+    $val !=
+      $white and
+      $val !=
+      $darkwhite and
+      $val !=
+      $yellow and
+      $val !=
+      $lightyellow and
+      $val !=
+      $darkyellow
+  ) {
+    @each $br, $rad in $border-radius {
+      @each $pad, $space in $padding {
+        .btn-#{$key}-#{$br}-#{$pad} {
+          @include btn($val);
+          border-radius: $rad;
+          padding: $space;
+          color: white;
+        }
+      }
     }
-    .btn-#{$key}-medium {
-      @include btn($val);
-      border-radius: $border-raidus-medium;
-    }
-    .btn-#{$key}-heavy {
-      @include btn($val);
-      border-radius: $border-radius-heavy;
+  } @else {
+    @each $br, $rad in $border-radius {
+      @each $pad, $space in $padding {
+        .btn-#{$key}-#{$br}-#{$pad} {
+          @include btn($val);
+          border-radius: $rad;
+          padding: $space;
+          color: black;
+        }
+      }
     }
   }
 }

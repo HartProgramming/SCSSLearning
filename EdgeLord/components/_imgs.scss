@@ -1,14 +1,14 @@
-@mixin img(){
-    width: $width;
-    height: $height;
-    border-radius: $radius;
+@mixin img($width, $height, $radius) {
+  width: $width;
+  height: $height;
+  border-radius: $radius;
 }
 
-.img-small{
-    @include img(150px, 150px, $bor)
+.img-small {
+  @include img(150px, 150px, $border-radius-light);
 }
 
-.img-medium{
-    width: 225px;
-    height: 225px;
+.img-medium {
+  width: 225px;
+  height: 225px;
 }

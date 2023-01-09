@@ -1,4 +1,13 @@
+@mixin card-column(){
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 .card {
+  @include card-column();
   padding: $padding-light;
   font-family: $montserrat;
   border: $border-thickness-light $border-style-solid $red;
