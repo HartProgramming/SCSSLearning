@@ -1,0 +1,21 @@
+/* Status styles for form inputs */
+
+/* input-required is assigned after a form submission that results in missing information */
+.input-required {
+    background-color: $darkwhite;
+    border-color: $red;
+    color: $black;
+  }
+  /* input-missing is assigned after a user skips an input without filling it */
+  .input-missing{
+      background-color: $darkwhite;
+      border-color: $yellow;
+      color: $black;
+  }
+  /* input-success is assigned after a user fills out a field properly */
+  .input-success{
+      background-color: $white;
+      border-color: $blue;
+      color: $black;
+  }
+  

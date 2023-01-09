@@ -1,0 +1,14 @@
+@mixin img(){
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+}
+
+.img-small{
+    @include img(150px, 150px, $bor)
+}
+
+.img-medium{
+    width: 225px;
+    height: 225px;
+}

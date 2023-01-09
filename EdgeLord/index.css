@@ -1,0 +1,1294 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Roboto:ital,wght@0,500;0,700;1,500;1,700&display=swap");
+/* Fonts from Google */
+/* Color Wheel Spectrum */
+/* spacing */
+/* borders */
+/* font-size */
+/* letter-spacing */
+.text-blue {
+  color: blue;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.text-darkblue {
+  color: #3241b2;
+}
+
+.bg-darkblue {
+  background-color: #3241b2;
+}
+
+.text-lightblue {
+  color: #1164b4;
+}
+
+.bg-lightblue {
+  background-color: #1164b4;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-darkred {
+  color: rgb(199, 0, 0);
+}
+
+.bg-darkred {
+  background-color: rgb(199, 0, 0);
+}
+
+.text-lightred {
+  color: rgb(255, 66, 66);
+}
+
+.bg-lightred {
+  background-color: rgb(255, 66, 66);
+}
+
+.text-orange {
+  color: orange;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.text-darkorange {
+  color: rgb(201, 130, 0);
+}
+
+.bg-darkorange {
+  background-color: rgb(201, 130, 0);
+}
+
+.text-lightorange {
+  color: #ffae42;
+}
+
+.bg-lightorange {
+  background-color: #ffae42;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.text-darkyellow {
+  color: rgb(214, 214, 9);
+}
+
+.bg-darkyellow {
+  background-color: rgb(214, 214, 9);
+}
+
+.text-lightyellow {
+  color: rgb(255, 255, 75);
+}
+
+.bg-lightyellow {
+  background-color: rgb(255, 255, 75);
+}
+
+.text-green {
+  color: green;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.text-darkgreen {
+  color: rgb(12, 89, 12);
+}
+
+.bg-darkgreen {
+  background-color: rgb(12, 89, 12);
+}
+
+.text-lightgreen {
+  color: rgb(23, 179, 23);
+}
+
+.bg-lightgreen {
+  background-color: rgb(23, 179, 23);
+}
+
+.text-purple {
+  color: purple;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.text-darkpurple {
+  color: rgb(98, 14, 98);
+}
+
+.bg-darkpurple {
+  background-color: rgb(98, 14, 98);
+}
+
+.text-lightpurple {
+  color: #953553;
+}
+
+.bg-lightpurple {
+  background-color: #953553;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-lightblack {
+  color: rgb(25, 25, 25);
+}
+
+.bg-lightblack {
+  background-color: rgb(25, 25, 25);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-darkwhite {
+  color: rgb(218, 218, 218);
+}
+
+.bg-darkwhite {
+  background-color: rgb(218, 218, 218);
+}
+
+.text-gray {
+  color: gray;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.text-darkgray {
+  color: rgb(61, 61, 61);
+}
+
+.bg-darkgray {
+  background-color: rgb(61, 61, 61);
+}
+
+.text-lightgray {
+  color: rgb(172, 172, 172);
+}
+
+.bg-lightgray {
+  background-color: rgb(172, 172, 172);
+}
+
+.card {
+  padding: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.btn-blue-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: blue;
+  border-radius: 5px;
+}
+.btn-blue-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-blue-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: blue;
+  border-radius: 10px;
+}
+.btn-blue-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-blue-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: blue;
+  border-radius: 15px;
+}
+.btn-blue-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkblue-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #3241b2;
+  border-radius: 5px;
+}
+.btn-darkblue-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkblue-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #3241b2;
+  border-radius: 10px;
+}
+.btn-darkblue-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkblue-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #3241b2;
+  border-radius: 15px;
+}
+.btn-darkblue-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblue-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #1164b4;
+  border-radius: 5px;
+}
+.btn-lightblue-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblue-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #1164b4;
+  border-radius: 10px;
+}
+.btn-lightblue-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblue-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #1164b4;
+  border-radius: 15px;
+}
+.btn-lightblue-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-red-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: red;
+  border-radius: 5px;
+}
+.btn-red-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-red-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: red;
+  border-radius: 10px;
+}
+.btn-red-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-red-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: red;
+  border-radius: 15px;
+}
+.btn-red-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkred-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(199, 0, 0);
+  border-radius: 5px;
+}
+.btn-darkred-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkred-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(199, 0, 0);
+  border-radius: 10px;
+}
+.btn-darkred-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkred-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(199, 0, 0);
+  border-radius: 15px;
+}
+.btn-darkred-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightred-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 66, 66);
+  border-radius: 5px;
+}
+.btn-lightred-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightred-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 66, 66);
+  border-radius: 10px;
+}
+.btn-lightred-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightred-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 66, 66);
+  border-radius: 15px;
+}
+.btn-lightred-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-orange-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: orange;
+  border-radius: 5px;
+}
+.btn-orange-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-orange-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: orange;
+  border-radius: 10px;
+}
+.btn-orange-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-orange-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: orange;
+  border-radius: 15px;
+}
+.btn-orange-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkorange-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(201, 130, 0);
+  border-radius: 5px;
+}
+.btn-darkorange-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkorange-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(201, 130, 0);
+  border-radius: 10px;
+}
+.btn-darkorange-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkorange-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(201, 130, 0);
+  border-radius: 15px;
+}
+.btn-darkorange-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightorange-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #ffae42;
+  border-radius: 5px;
+}
+.btn-lightorange-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightorange-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #ffae42;
+  border-radius: 10px;
+}
+.btn-lightorange-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightorange-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #ffae42;
+  border-radius: 15px;
+}
+.btn-lightorange-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-yellow-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: yellow;
+  border-radius: 5px;
+}
+.btn-yellow-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-yellow-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.btn-yellow-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-yellow-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: yellow;
+  border-radius: 15px;
+}
+.btn-yellow-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkyellow-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(214, 214, 9);
+  border-radius: 5px;
+}
+.btn-darkyellow-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkyellow-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(214, 214, 9);
+  border-radius: 10px;
+}
+.btn-darkyellow-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkyellow-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(214, 214, 9);
+  border-radius: 15px;
+}
+.btn-darkyellow-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightyellow-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 255, 75);
+  border-radius: 5px;
+}
+.btn-lightyellow-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightyellow-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 255, 75);
+  border-radius: 10px;
+}
+.btn-lightyellow-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightyellow-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(255, 255, 75);
+  border-radius: 15px;
+}
+.btn-lightyellow-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-green-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: green;
+  border-radius: 5px;
+}
+.btn-green-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-green-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: green;
+  border-radius: 10px;
+}
+.btn-green-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-green-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: green;
+  border-radius: 15px;
+}
+.btn-green-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgreen-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(12, 89, 12);
+  border-radius: 5px;
+}
+.btn-darkgreen-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgreen-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(12, 89, 12);
+  border-radius: 10px;
+}
+.btn-darkgreen-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgreen-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(12, 89, 12);
+  border-radius: 15px;
+}
+.btn-darkgreen-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgreen-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(23, 179, 23);
+  border-radius: 5px;
+}
+.btn-lightgreen-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgreen-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(23, 179, 23);
+  border-radius: 10px;
+}
+.btn-lightgreen-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgreen-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(23, 179, 23);
+  border-radius: 15px;
+}
+.btn-lightgreen-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-purple-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: purple;
+  border-radius: 5px;
+}
+.btn-purple-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-purple-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: purple;
+  border-radius: 10px;
+}
+.btn-purple-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-purple-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: purple;
+  border-radius: 15px;
+}
+.btn-purple-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkpurple-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(98, 14, 98);
+  border-radius: 5px;
+}
+.btn-darkpurple-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkpurple-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(98, 14, 98);
+  border-radius: 10px;
+}
+.btn-darkpurple-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkpurple-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(98, 14, 98);
+  border-radius: 15px;
+}
+.btn-darkpurple-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightpurple-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #953553;
+  border-radius: 5px;
+}
+.btn-lightpurple-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightpurple-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #953553;
+  border-radius: 10px;
+}
+.btn-lightpurple-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightpurple-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #953553;
+  border-radius: 15px;
+}
+.btn-lightpurple-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-black-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: black;
+  border-radius: 5px;
+}
+.btn-black-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-black-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: black;
+  border-radius: 10px;
+}
+.btn-black-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-black-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: black;
+  border-radius: 15px;
+}
+.btn-black-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblack-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+}
+.btn-lightblack-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblack-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+}
+.btn-lightblack-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightblack-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(25, 25, 25);
+  border-radius: 15px;
+}
+.btn-lightblack-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-white-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 5px;
+}
+.btn-white-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-white-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.btn-white-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-white-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 15px;
+}
+.btn-white-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkwhite-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(218, 218, 218);
+  border-radius: 5px;
+}
+.btn-darkwhite-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkwhite-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(218, 218, 218);
+  border-radius: 10px;
+}
+.btn-darkwhite-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkwhite-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(218, 218, 218);
+  border-radius: 15px;
+}
+.btn-darkwhite-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-gray-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: gray;
+  border-radius: 5px;
+}
+.btn-gray-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-gray-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: gray;
+  border-radius: 10px;
+}
+.btn-gray-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-gray-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: gray;
+  border-radius: 15px;
+}
+.btn-gray-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgray-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+}
+.btn-darkgray-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgray-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+}
+.btn-darkgray-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-darkgray-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(61, 61, 61);
+  border-radius: 15px;
+}
+.btn-darkgray-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgray-light {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(172, 172, 172);
+  border-radius: 5px;
+}
+.btn-lightgray-light:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgray-medium {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(172, 172, 172);
+  border-radius: 10px;
+}
+.btn-lightgray-medium:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+.btn-lightgray-heavy {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: rgb(172, 172, 172);
+  border-radius: 15px;
+}
+.btn-lightgray-heavy:hover {
+  filter: contrast(80%);
+  color: white;
+}
+
+/* Status styles for form inputs */
+/* input-required is assigned after a form submission that results in missing information */
+.input-required {
+  background-color: rgb(218, 218, 218);
+  border-color: red;
+  color: black;
+}
+
+/* input-missing is assigned after a user skips an input without filling it */
+.input-missing {
+  background-color: rgb(218, 218, 218);
+  border-color: yellow;
+  color: black;
+}
+
+/* input-success is assigned after a user fills out a field properly */
+.input-success {
+  background-color: white;
+  border-color: blue;
+  color: black;
+}
+
+.img-small {
+  @in;
+}
+
+.img-medium {
+  width: 225px;
+  height: 225px;
+}/*# sourceMappingURL=index.css.map */

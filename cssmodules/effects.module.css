@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Roboto:ital,wght@0,500;0,700;1,500;1,700&display=swap");
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.fw-200-lato-mont {
+  font-weight: 200;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-heavy {
+  font-weight: 700;
+}
+
+.italize {
+  font-style: italic;
+}
+
+.rounded-corners-light {
+  border-radius: 5px;
+}
+
+.rounded-corners-medium {
+  border-radius: 10px;
+}
+
+.rounded-corners-heavy {
+  border-radius: 15px;
+}
+
+.opacity-none {
+  opacity: 0;
+}
+
+.opacity-full {
+  opacity: 1;
+}
+
+.border-light {
+  border-width: 1px;
+}
+
+.border-medium {
+  border-width: 2px;
+}
+
+.border-heavy {
+  border-width: 3px;
+}
+
+.letter-space-light {
+  letter-spacing: 1.1px;
+}
+
+.letter-space-medium {
+  letter-spacing: 1.2px;
+}
+
+.letter-space-heavy {
+  letter-spacing: 1.3px;
+}
+
+.scale-light{
+  scale: 1.1;
+}
+
+.scale-medium{
+  scale: 1.2;
+}
+
+.scale-heavy{
+  scale: 1.3;
+}
