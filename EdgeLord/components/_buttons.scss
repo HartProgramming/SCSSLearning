@@ -18,7 +18,7 @@
     padding: $padding-light;
     background-color: $bg-color;
     &:hover {
-        filter: contrast(80%);
+      filter: contrast(80%);
       color: white;
     }
   } @else {
@@ -29,45 +29,65 @@
     padding: $padding-light;
     background-color: $bg-color;
     &:hover {
-        filter: contrast((80%));
+      filter: contrast((80%));
       color: black;
     }
   }
 }
 
-$count: 0;
+$button-width: (
+  "light": "70px",
+  "medium": "95px",
+  "heavy": "110px",
+);
+
+$button-height: (
+  "light": "50px",
+  "medium": "65px",
+  "heavy": "80px",
+);
 
 @each $key, $val in $colors {
-  @if (
-    $val !=
-      $white and
-      $val !=
-      $darkwhite and
-      $val !=
-      $yellow and
-      $val !=
-      $lightyellow and
-      $val !=
-      $darkyellow
-  ) {
-    @each $br, $rad in $border-radius {
-      @each $pad, $space in $padding {
-        .btn-#{$key}-#{$br}-#{$pad} {
-          @include btn($val);
-          border-radius: $rad;
-          padding: $space;
-          color: white;
+  @each $width, $w in $button-width {
+    @each $height, $h in $button-height {
+      @if (
+        $val !=
+          $white and
+          $val !=
+          $darkwhite and
+          $val !=
+          $yellow and
+          $val !=
+          $lightyellow and
+          $val !=
+          $darkyellow and
+          $width ==
+          $height
+      ) {
+        @each $br, $rad in $border-radius {
+          @each $pad, $space in $padding {
+            .btn-#{$width}-#{$key}-#{$br}-#{$pad} {
+              @include btn($val);
+              border-radius: $rad;
+              padding: $space;
+              width: $w;
+              height: $h;
+              color: white;
+            }
+          }
         }
-      }
-    }
-  } @else {
-    @each $br, $rad in $border-radius {
-      @each $pad, $space in $padding {
-        .btn-#{$key}-#{$br}-#{$pad} {
-          @include btn($val);
-          border-radius: $rad;
-          padding: $space;
-          color: black;
+      } @else if ($width == $height) {
+        @each $br, $rad in $border-radius {
+          @each $pad, $space in $padding {
+            .btn-#{$width}-#{$key}-#{$br}-#{$pad} {
+              @include btn($val);
+              border-radius: $rad;
+              width: $w;
+              height: $h;
+              padding: $space;
+              color: black;
+            }
+          }
         }
       }
     }
