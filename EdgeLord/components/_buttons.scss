@@ -15,7 +15,6 @@
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    padding: $padding-light;
     background-color: $bg-color;
     &:hover {
       filter: contrast(80%);
@@ -26,7 +25,6 @@
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    padding: $padding-light;
     background-color: $bg-color;
     &:hover {
       filter: contrast((80%));
@@ -36,56 +34,45 @@
 }
 
 $button-width: (
-  "light": "70px",
-  "medium": "95px",
-  "heavy": "110px",
+  "l": "70px",
+  "m": "95px",
+  "h": "110px",
 );
 
 $button-height: (
-  "light": "50px",
-  "medium": "65px",
-  "heavy": "80px",
+  "l": "50px",
+  "m": "65px",
+  "h": "80px",
 );
 
 @each $key, $val in $colors {
-  @each $width, $w in $button-width {
-    @each $height, $h in $button-height {
-      @if (
-        $val !=
-          $white and
-          $val !=
-          $darkwhite and
-          $val !=
-          $yellow and
-          $val !=
-          $lightyellow and
-          $val !=
-          $darkyellow and
-          $width ==
-          $height
-      ) {
+  @each $bc, $color in $colors {
+    @each $width, $w in $button-width {
+      @each $height, $h in $button-height {
         @each $br, $rad in $border-radius {
-          @each $pad, $space in $padding {
-            .btn-#{$width}-#{$key}-#{$br}-#{$pad} {
-              @include btn($val);
-              border-radius: $rad;
-              padding: $space;
-              width: $w;
-              height: $h;
-              color: white;
-            }
-          }
-        }
-      } @else if ($width == $height) {
-        @each $br, $rad in $border-radius {
-          @each $pad, $space in $padding {
-            .btn-#{$width}-#{$key}-#{$br}-#{$pad} {
-              @include btn($val);
-              border-radius: $rad;
-              width: $w;
-              height: $h;
-              padding: $space;
-              color: black;
+          @each $bt, $thick in $border-thick {
+            @each $pad, $space in $padding {
+              @if ($width != $height) {
+                .btn-#{$width}-#{$key}-#{$bc}-#{$br}-#{$bt}-#{$pad} {
+                  @include btn($val);
+                  border-radius: $rad;
+                  padding: $space;
+                  width: $w;
+                  height: $h;
+                  border: $bt solid $color;
+                  color: white;
+                }
+              } @else if($width == $height) {
+                .btn-#{$width}-#{$key}-#{$bc}-#{$br}-#{$pad} {
+                  @include btn($val);
+                  border-radius: $rad;
+                  width: $w;
+                  height: $h;
+                  border: $bt solid $color;
+                  padding: $space;
+                  color: black;
+                }
+              }
             }
           }
         }

@@ -8,6 +8,15 @@ $grid-gaps: (
   "3": 30px,
 );
 
+$layouts: (
+  'fs': 'flex-start',
+  'fe': 'flex-end',
+  'c': 'center',
+  'sb': 'space-between',
+  'sa': 'space-around',
+  'se': 'space-evenly'
+);
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -24,6 +33,10 @@ $grid-gaps: (
 @each $key, $val in $grid-gaps {
   .gap-#{$key} > * {
     padding: $val;
+  }
+  .gap-#{$key} {
+    margin-left: $val;
+    margin-right: $val;
   }
 }
 

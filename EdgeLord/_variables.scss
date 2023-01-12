@@ -69,9 +69,10 @@ $padding-medium: 1rem;
 $padding-heavy: 1.25rem;
 
 $padding: (
-  "pd-light": 0.75rem,
-  "pd-medium": 1rem,
-  "pd-heavy": 1.25rem,
+    '0': 0,
+  "l": 0.75rem,
+  "m": 1rem,
+  "h": 1.25rem,
 );
 
 $margin-auto: auto;
@@ -80,10 +81,11 @@ $margin-medium: 1rem;
 $margin-heaavy: 1.25rem;
 
 $margin:(
-    'm-auto': auto,
-    'm-light': .75rem,
-    'm-medium': 1rem,
-    'm-heavy': 1.25rem
+    '0': 0,
+    'a': auto,
+    'l': .75rem,
+    'm': 1rem,
+    'h': 1.25rem
 );
 
 /* borders */
@@ -92,9 +94,10 @@ $border-thickness-medium: 2.25px;
 $border-thickness-heavy: 3.5px;
 
 $border-thick: (
-    'bt-light': 1px,
-    'bt-medium': 2.25px,
-    'bt-heavy': 3.5px
+    '0': 0,
+    'l': 1px,
+    'm': 2.25px,
+    'h': 3.5px
 );
 
 $border-radius-light: 5px;
@@ -102,9 +105,10 @@ $border-raidus-medium: 10px;
 $border-radius-heavy: 15px;
 
 $border-radius: (
-    'br-light': 5px,
-    'br-medium': 10px,
-    'br-heavy': 15px
+    '0': 0px,
+    'l': 5px,
+    'm': 10px,
+    'h': 15px
 );
 
 $border-style-solid: solid;
@@ -115,9 +119,10 @@ $font-size-medium: 1.5rem;
 $font-size-heavy: 2rem;
 
 $font-sizes: (
-    'fs-light': 1rem,
-    'fs-medium': 1.5rem,
-    'fs-heavy': 2rem
+    '0': none,
+    'l': 1rem,
+    'm': 1.5rem,
+    'h': 2rem
 );
 
 /* letter-spacing */
@@ -126,7 +131,8 @@ $letter-spacing-medium: 1.275px;
 $letter-spacing-heavy: 1.4px;
 
 $letter-spacing: (
-    'ls-light': 1.15px,
-    'ls-medium': 1.275px,
-    'ls-heavy': 1.4px
+    '0': none,
+    'l': 1.15px,
+    'm': 1.275px,
+    'h': 1.4px
 );

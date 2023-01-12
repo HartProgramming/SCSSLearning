@@ -1,0 +1,38 @@
+@mixin nav($bg-color) {
+    @if (
+      $bg-color !=
+        $white and
+        $bg-color !=
+        $darkwhite and
+        $bg-color !=
+        $yellow and
+        $bg-color !=
+        $lightyellow and
+        $bg-color !=
+        $darkyellow
+    ) {
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      list-style: none;
+      cursor: pointer;
+      background-color: $bg-color;
+      &:hover {
+        filter: contrast(80%);
+        color: white;
+      }
+    } @else {
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      list-style: none;
+      cursor: pointer;
+      background-color: $bg-color;
+      &:hover {
+        filter: contrast((80%));
+        color: black;
+      }
+    }
+  }
+
+  
