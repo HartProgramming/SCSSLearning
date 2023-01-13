@@ -1,0 +1,31 @@
+@each $key, $val in $font-sizes {
+  .fs-#{$key} {
+    font-size: $val;
+  }
+}
+
+@each $key, $val in $letter-spacing {
+  .ls-#{$key} {
+    letter-spacing: $val;
+  }
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.robot {
+  font-family: "Roboto", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}

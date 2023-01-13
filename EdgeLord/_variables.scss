@@ -69,7 +69,8 @@ $padding-medium: 1rem;
 $padding-heavy: 1.25rem;
 
 $padding: (
-    '0': 0,
+  "0": 0px,
+  "a": auto,
   "l": 0.75rem,
   "m": 1rem,
   "h": 1.25rem,
@@ -80,12 +81,12 @@ $margin-light: 0.75rem;
 $margin-medium: 1rem;
 $margin-heaavy: 1.25rem;
 
-$margin:(
-    '0': 0,
-    'a': auto,
-    'l': .75rem,
-    'm': 1rem,
-    'h': 1.25rem
+$margin: (
+  "0": 0px,
+  "a": auto,
+  "l": 0.75rem,
+  "m": 1rem,
+  "h": 1.25rem,
 );
 
 /* borders */
@@ -94,10 +95,10 @@ $border-thickness-medium: 2.25px;
 $border-thickness-heavy: 3.5px;
 
 $border-thick: (
-    '0': 0,
-    'l': 1px,
-    'm': 2.25px,
-    'h': 3.5px
+  "0": 0px,
+  "l": 1px,
+  "m": 2.25px,
+  "h": 3.5px,
 );
 
 $border-radius-light: 5px;
@@ -105,10 +106,10 @@ $border-raidus-medium: 10px;
 $border-radius-heavy: 15px;
 
 $border-radius: (
-    '0': 0px,
-    'l': 5px,
-    'm': 10px,
-    'h': 15px
+  "0": 0px,
+  "l": 5px,
+  "m": 10px,
+  "h": 15px,
 );
 
 $border-style-solid: solid;
@@ -119,10 +120,10 @@ $font-size-medium: 1.5rem;
 $font-size-heavy: 2rem;
 
 $font-sizes: (
-    '0': none,
-    'l': 1rem,
-    'm': 1.5rem,
-    'h': 2rem
+  "0": 0px,
+  "l": 1rem,
+  "m": 1.5rem,
+  "h": 2rem,
 );
 
 /* letter-spacing */
@@ -131,8 +132,8 @@ $letter-spacing-medium: 1.275px;
 $letter-spacing-heavy: 1.4px;
 
 $letter-spacing: (
-    '0': none,
-    'l': 1.15px,
-    'm': 1.275px,
-    'h': 1.4px
+  "0": 0px,
+  "l": 1.15px,
+  "m": 1.275px,
+  "h": 1.4px,
 );

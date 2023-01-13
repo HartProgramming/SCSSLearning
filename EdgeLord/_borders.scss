@@ -1,0 +1,31 @@
+@each $key, $val in $border-radius {
+  .br-w-#{$key} {
+    border-radius: $val;
+  }
+  .br-tl-#{$key} {
+    border-top-left-radius: $val;
+  }
+  .br-bl-#{$key} {
+    border-bottom-left-radius: $val;
+  }
+  .br-br-#{$key} {
+    border-bottom-right-radius: $val;
+  }
+  .br-tr-#{$key} {
+    border-top-right-radius: $val;
+  }
+}
+
+@each $key, $val in $border-thick {
+  .bt-#{$key} {
+    border-width: $val;
+  }
+}
+
+@each $bt, $thick in $border-thick {
+  @each $color, $shade in $colors {
+    .b-#{$bt}-#{$color} {
+      border: $thick solid $shade;
+    }
+  }
+}
